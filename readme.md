@@ -4,7 +4,7 @@ git add .
 # confirmar cambios
 git commit -m "mensaje"
 
-## publicar cambios
+# publicar cambios
 git push
  
 
