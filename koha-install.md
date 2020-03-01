@@ -5,6 +5,7 @@ sudo apt-get install mariadb-server -y
 
 ## 2. Añadir el repositorio koha:
 wget -q -O- http://debian.koha-community.org/koha/gpg.asc | sudo apt-key add -
+
 echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list
 
 ## 3. Instalar koha:
