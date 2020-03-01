@@ -22,6 +22,6 @@ sudo a2enmod rewrite
 
 sudo a2enmod cgi
 
-##Después ya podemos reiniciar el servidor con el comando:
+###Después ya podemos reiniciar el servidor con el comando:
 
 sudo service apache2 restart
