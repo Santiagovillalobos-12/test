@@ -42,3 +42,26 @@ sudo nano /etc/apache2/ports.conf
 
 ![alt text](ports.png?raw=true)
 
+## 9. Habilitar modulos
+
+sudo a2dissite 000-default
+
+sudo a2enmod deflate
+
+sudo a2ensite library
+
+## 10. Reiniciar apache
+
+sudo service apache2 restart
+
+## 11. Comando de reconstrucción Zebra
+
+koha-rebuild-zebra -v -f library
+
+## 12. Password para el archivo de configuración Koha
+
+sudo xmlstarlet sel -t -v 'yazgfs/config/pass' /etc/koha/sites/library/koha-conf.xml
+
+## 13. Cambiar la contraseña de la base de datos koha_library
+
+![alt text](koha-library.png?raw=true)
