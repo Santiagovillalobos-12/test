@@ -16,3 +16,12 @@ sudo nano /etc/koha/koha-sites.conf
 
 
 ![alt text](koha-sites.png?raw=true)
+
+## 5. configuracion de apache:
+sudo a2enmod rewrite
+
+sudo a2enmod cgi
+
+##Después ya podemos reiniciar el servidor con el comando:
+
+sudo service apache2 restart
