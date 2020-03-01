@@ -12,4 +12,6 @@ sudo apt-get install koha-common
 
 ## 4. configurar koha-sites: 
 sudo nano /etc/koha/koha-sites.conf
+
+
 ![alt text](koha-sites.png?raw=true)
