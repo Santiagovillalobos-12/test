@@ -85,3 +85,7 @@ quit;
 ## 15. Reiniciar memcached
 
 sudo service memcached restart
+
+## 16 Entrar con el navegador
+
+ingrese a http: // localhost: 8084 y config koha, dentro de la configuración solo necesita seleccionar siguiente, siguiente, siguiente, el idioma, la cuenta de configuración de súper administrador y la contraseña, siguiente, siguiente y finalizar.
