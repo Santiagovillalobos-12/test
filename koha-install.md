@@ -65,3 +65,23 @@ sudo xmlstarlet sel -t -v 'yazgfs/config/pass' /etc/koha/sites/library/koha-conf
 ## 13. Cambiar la contraseña de la base de datos koha_library
 
 ![alt text](koha-library.png?raw=true)
+
+## 14. Configurar MySQL para koha
+
+sudo su
+ 
+mysql -uroot -p
+ 
+use mysql;
+ 
+SET PASSWORD FOR 'koha_library'@'localhost' = PASSWORD('library');
+ 
+flush privileges;
+ 
+quit;
+
+(Para este ejemplo, el password utilizando es ‘library‘. Debe de ser el mismo que el que establecemos en el archivo editado en el punto anterior.)
+
+## 15. Reiniciar memcached
+
+sudo service memcached restart
