@@ -8,6 +8,8 @@ wget -q -O- http://debian.koha-community.org/koha/gpg.asc | sudo apt-key add -
 
 echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list
 
+sudo apt-get update; sudo apt-get upgrade
+
 ## 3. Instalar koha:
 sudo apt-get install koha-common
 
