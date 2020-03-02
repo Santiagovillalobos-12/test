@@ -73,6 +73,7 @@ sudo nano /etc/koha/sites/library/koha-conf.xml
 
 ![alt text](koha-library.png?raw=true)
 
+(Solo cambiar el password)
 ## 14. Configurar MySQL para koha
 
 sudo su
