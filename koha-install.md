@@ -1,5 +1,7 @@
 # koha-install
 
+Guia: https://ubunlog.com/koha-sistema-integrado-gestion-bibliotecas/
+
 ## 1. Instalar mariadb:
 sudo apt-get install mariadb-server -y
 
