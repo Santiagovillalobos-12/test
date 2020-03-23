@@ -46,7 +46,7 @@ sudo koha-create --create-db library
 ```
 sudo mysql_secure_installation
 ```
-(Al ejecutar este script, respondí Y (Sí) a todas las demás).
+(Al ejecutar este script, respondí N (NO) a la primera y Y (SI) a todas las demás).
 
 ## 8. Añadiendo puertos
 ```
